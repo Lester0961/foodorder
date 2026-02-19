@@ -1,4 +1,5 @@
-<img width="1902" height="842" alt="image" src="https://github.com/user-attachments/assets/68379d04-fa47-46aa-9095-478c699e2b90" /><img width="1902" height="842" alt="image" src="https://github.com/user-attachments/assets/68379d04-fa47-46aa-9095-478c699e2b90" /># Lutong Pinoy – Sarap na Lutong Bahay
+<img width="1902" height="842" alt="image" src="https://github.com/user-attachments/assets/68379d04-fa47-46aa-9095-478c699e2b90" />
+# Lutong Pinoy – Sarap na Lutong Bahay
 
 A modern, fully responsive single-page food delivery web application built for **Lutong Pinoy** — authentic Filipino home-cooked meals delivered straight to your door.
 
@@ -29,21 +30,24 @@ Live Demo: https://foodorder-beryl.vercel.app/
 
 ## Project Structure
 
+## Project Structure
+
+```
 lutong-pinoy/
-├── public/                    # static assets
+├── public/                     # static assets (images, favicon, etc.)
 ├── src/
-│   ├── components/            # reusable UI pieces
+│   ├── components/             # reusable UI pieces
 │   │   ├── Header.jsx
 │   │   ├── Footer.jsx
 │   │   ├── ProductCard.jsx
 │   │   ├── CartItem.jsx
 │   │   ├── AuthModal.jsx
 │   │   └── Toast.jsx
-│   ├── context/               # global state
+│   ├── context/                # global state (cart, auth, toast)
 │   │   ├── CartContext.jsx
 │   │   ├── AuthContext.jsx
 │   │   └── ToastContext.jsx
-│   ├── pages/                 # route-level pages
+│   ├── pages/                  # route-level pages
 │   │   ├── Home.jsx
 │   │   ├── Menu.jsx
 │   │   ├── ProductDetail.jsx
@@ -52,10 +56,10 @@ lutong-pinoy/
 │   │   ├── OrderSuccess.jsx
 │   │   └── MyOrders.jsx
 │   ├── data/
-│   │   └── products.js        # static menu data
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   │   └── products.js         # static menu data
+│   ├── App.jsx                 # main layout + routing
+│   ├── main.jsx                # React entry point
+│   └── index.css               # Tailwind + custom styles
 ├── .gitignore
 ├── index.html
 ├── package.json
@@ -63,35 +67,41 @@ lutong-pinoy/
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
-
-
+```
 ## Installation & Local Development
 -in cmd/bash-
 1. Clone the repository
+```
    git clone https://github.com/Lester0961/foodorder.git
    cd foodorder
-
-2. Install dependencies
+```
+3. Install dependencies
+ ```
    npm install
-   
-3. Start developtment server
-   npm run dev
-
-4. Build for production
+```   
+4. Start developtment server
+```
+  npm run dev
+```
+5. Build for production
+```
    npm runnn build
-
+```
 Future Improvements (ideas)
 
-Real backend (Supabase / Firebase) for users & orders
-Payment integration (GCash / PayMongo)
-Search bar on Menu page
-Favorites / Wishlist
-Order tracking status
-Dark mode toggle
-PWA support (offline cart)
+## Future Improvements (ideas)
 
-License
+- Real backend (Supabase / Firebase) for users & orders
+- Payment integration (GCash / PayMongo)
+- Search bar on Menu page
+- Favorites / Wishlist
+- Order tracking status
+- Dark mode toggle
+- PWA support (offline cart)
+
 MIT License – feel free to use, modify, and learn from this project.
-Made with ❤️ in Parañaque City, Philippines
+
+Made with ❤️ in Parañaque City, Philippines  
 © 2026 Lutong Pinoy
+
 Happy coding & enjoy the sarap! 🇵🇭🍲
