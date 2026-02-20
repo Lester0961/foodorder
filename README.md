@@ -96,7 +96,9 @@ lutong-pinoy/
 - Dark mode toggle
 - PWA support (offline cart)
 
-MIT License – feel free to use, modify, and learn from this project.
+## License
+
+This project is licensed under the **MIT License** — see the (LICENSE) file for details.
 
 Made with ❤️ in Parañaque City, Philippines  
 © 2026 Lutong Pinoy
