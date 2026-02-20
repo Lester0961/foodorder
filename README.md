@@ -30,8 +30,6 @@ Live Demo: https://foodorder-beryl.vercel.app/
 
 ## Project Structure
 
-## Project Structure
-
 ```
 lutong-pinoy/
 ├── public/                     # static assets (images, favicon, etc.)
@@ -75,19 +73,18 @@ lutong-pinoy/
    git clone https://github.com/Lester0961/foodorder.git
    cd foodorder
 ```
-3. Install dependencies
+2. Install dependencies
  ```
    npm install
 ```   
-4. Start developtment server
+3. Start development server
 ```
   npm run dev
 ```
-5. Build for production
+4. Build for production
 ```
-   npm runnn build
+   npm run build
 ```
-Future Improvements (ideas)
 
 ## Future Improvements (ideas)
 
