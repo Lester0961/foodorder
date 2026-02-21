@@ -3,7 +3,7 @@
 
 A modern, fully responsive single-page food delivery web application built for **Lutong Pinoy** — authentic Filipino home-cooked meals delivered straight to your door.
 
-Live Demo: https://foodorder-beryl.vercel.app/
+Live Demo: (https://foodorder-lester.vercel.app/)
 
 ## Features
 
